@@ -24,7 +24,7 @@ public class middle{
 
         else if(head!=null){
 
-            while(ptr1.next!=null){
+            while(ptr1 != null && ptr1.next != null){
 
                 ptr1=ptr1.next.next;
                 ptr2=ptr2.next;
